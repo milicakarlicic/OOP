@@ -1,2 +1,2 @@
 # OOP
-Repozitorijum sadrži materijali sa časova vježbi iz predmeta Objektno-orijentisano programiranje na Matematičkom fakultetu 
+Repozitorijum sadrži materijale sa časova vježbi iz predmeta Objektno-orijentisano programiranje na Matematičkom fakultetu 

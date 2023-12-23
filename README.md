@@ -8,7 +8,7 @@ Repozitorijum sadrži materijale sa časova vježbi iz predmeta Objektno-orijent
   - čas04: Nasleđivanje
   - čas05: Apstraktne klase, polimorfizam
   - čas06: Interfejsi, Enumi
-  - čas07: Izuzeci, datoteke
+  - čas07: Izuzeci, kloniranje, datoteke
   - čas08: Generičke klase i metode
   - čas09: Generičke kolekcije
   - čas10: Poređenje objekata 

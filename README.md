@@ -14,3 +14,4 @@ Repozitorijum sadrži materijale sa časova vježbi iz predmeta Objektno-orijent
   - čas10: Poređenje objekata 
   - čas11: Tokovi podataka
   - čas12: JavaFX
+  - čas13: Primer roka

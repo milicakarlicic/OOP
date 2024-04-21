@@ -1,9 +1,9 @@
-package skup;
+package zadatak05;
 
 import java.util.HashSet;
 import java.util.Set;
 
-public class Primer05 {
+public class Test {
 
     public static void main(String[] args) {
         Set<Tacka> skup = new HashSet<>();

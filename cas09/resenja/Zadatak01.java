@@ -3,7 +3,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.StringJoiner;
 
-public class Primer01 {
+public class Zadatak01 {
 
     public static void main(String[] args) {
         List<String> lista = new LinkedList<>();
@@ -24,7 +24,7 @@ public class Primer01 {
         }
         System.out.println();
 
-        StringJoiner sj = new StringJoiner(" ");
+        StringJoiner sj = new StringJoiner(", ");
         for (String s : lista) {
             sj.add(s);
         }

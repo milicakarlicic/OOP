@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Primer02 {
+public class Zadatak02 {
 
     public static void main(String[] args) {
         List<Integer> lista = new ArrayList<>(Arrays.asList(4, 1, 6, 9, 10, 7));
@@ -15,7 +15,7 @@ public class Primer02 {
         System.out.print("Unesite broj rotacije: ");
         int k = ulaz.nextInt();
         ulaz.close();
-        Collections.rotate(lista, k);
+        Collections.rotate(lista, lista.size() - k);
         System.out.println("Rotirana: " + lista);
     }
 }

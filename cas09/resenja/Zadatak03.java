@@ -2,7 +2,7 @@ import java.util.Iterator;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class Primer03 {
+public class Zadatak03 {
 
     public static void main(String[] args) {
         Set<Integer> s1 = new TreeSet<>();
@@ -38,7 +38,7 @@ public class Primer03 {
         }
         System.out.println();
 
-        Set<Integer> s1Unijes2 = new TreeSet<>(s1);
+        Set<Integer> s1Unijas2 = new TreeSet<>(s1);
         s1Unijes2.addAll(s2);
         System.out.println("unija: " + s1Unijes2);
 

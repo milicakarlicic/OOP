@@ -1,4 +1,4 @@
-package skup;
+package zadatak05;
 
 import java.util.Objects;
 
@@ -17,8 +17,9 @@ public class Tacka {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Tacka tacka)) return false;
+        if (!(o instanceof Tacka tacka)) {
+        	return false;
+    	}
         return Double.compare(x, tacka.x) == 0 && Double.compare(y, tacka.y) == 0;
     }
 

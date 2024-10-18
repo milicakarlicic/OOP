@@ -1,23 +1,11 @@
+package resenja;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class Primer05 {
 
-     static void razmeni1(int[][] m, int i, int j) {
-        for (int k = 0; k < m[i].length; k++) {
-            int pom = m[i][k];
-            m[i][k] = m[j][k];
-            m[j][k] = pom;
-        }
-    }
-
-     static void razmeni2(int[][] m, int i, int j) {
-        int[] pom = m[i];
-        m[i] = m[j];
-        m[j] = pom;
-    }
-
-    public static void main(String[] args) {
+	public static void main(String[] args) {
         Scanner ulaz = new Scanner(System.in);
 
         int n = ulaz.nextInt();
@@ -37,6 +25,20 @@ public class Primer05 {
         System.out.println(Arrays.deepToString(matrica));
 
         ulaz.close();
+    }
+
+     static void razmeni1(int[][] m, int i, int j) {
+        for (int k = 0; k < m[i].length; k++) {
+            int pom = m[i][k];
+            m[i][k] = m[j][k];
+            m[j][k] = pom;
+        }
+    }
+
+     static void razmeni2(int[][] m, int i, int j) {
+        int[] pom = m[i];
+        m[i] = m[j];
+        m[j] = pom;
     }
 
 }

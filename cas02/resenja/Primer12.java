@@ -1,3 +1,5 @@
+package resenja;
+
 import java.util.Scanner;
 
 public class Primer12 {
@@ -12,9 +14,9 @@ public class Primer12 {
         String pom = ulaz.next();
 
         if (linija.startsWith(pom)) {
-            System.out.println("jeste prefiks");
+            System.out.println("Jeste prefiks");
         } else if (linija.endsWith(pom)) {
-            System.out.println("jeste sufiks");
+            System.out.println("Jeste sufiks");
         }
 
         ulaz.close();

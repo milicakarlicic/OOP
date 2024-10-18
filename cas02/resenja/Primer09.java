@@ -1,3 +1,5 @@
+package resenja;
+
 import java.util.Scanner;
 
 public class Primer09 {

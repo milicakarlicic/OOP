@@ -1,3 +1,5 @@
+package resenja;
+
 public class Primer11 {
 
     public static void main(String[] args) {

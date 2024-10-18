@@ -1,6 +1,16 @@
+package resenja;
+
 import java.util.Scanner;
 
 public class Primer03 {
+
+	public static void main(String[] args) {
+        int[] niz = inic();
+
+        ispisi(niz);
+        pomnoziKonstantom(niz, 5);
+        ispisi(niz);
+    }
 
      static int[] inic() {
         Scanner ulaz = new Scanner(System.in);
@@ -25,14 +35,6 @@ public class Primer03 {
         for (int i = 0; i < niz.length; i++) {
             niz[i] *= konst;
         }
-    }
-
-    public static void main(String[] args) {
-        int[] niz = inic();
-
-        ispisi(niz);
-        pomnoziKonstantom(niz, 5);
-        ispisi(niz);
     }
 
 }

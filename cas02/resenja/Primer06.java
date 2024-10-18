@@ -1,3 +1,5 @@
+package resenja;
+
 import java.util.Arrays;
 
 public class Primer06 {
@@ -11,9 +13,9 @@ public class Primer06 {
         int poz = Arrays.binarySearch(niz, 9);
 
         if (poz >= 0) {
-            System.out.println("nadjen na poziciji " + poz);
+            System.out.println("Element 9 se nalazi na poziciji " + poz);
         } else {
-            System.out.println("kada bi postojao bio bi na poziciji " + (- poz - 1));
+            System.out.println("Ne postoji");
         }
     }
 

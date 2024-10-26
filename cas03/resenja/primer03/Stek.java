@@ -4,22 +4,25 @@ import java.util.Arrays;
 
 public class Stek {
     // elementi steka
-    int[] elementi;
+    private int[] elementi;
     // prva slobodna pozicija u nizu koji cuva elemente steka
-    int vrhSteka;
+    private int vrhSteka;
+    private int kapacitet;
 
     public Stek() {
         // inicijalno pravimo niz duzine 2, prva slobodna pozicija
         // je 0 jer nismo ubacili nijedan element
-        elementi = new int[2];
+        kapacitet = 2;
+        elementi = new int[kapacitet];
         vrhSteka = 0;
     }
 
     public void push(int x) {
-        if (vrhSteka == elementi.length) {
+        if (vrhSteka == kapacitet) {
             // ukoliko smo prekoracili trenutnu velicinu steka, uvecavamo duplo
             // niz koji cuva elemente
-            elementi = Arrays.copyOf(elementi, 2 * vrhSteka);
+            kapacitet *= 2;
+            elementi = Arrays.copyOf(elementi, kapacitet);
         }
         elementi[vrhSteka++] = x;
     }
@@ -38,17 +41,14 @@ public class Stek {
         return elementi[vrhSteka - 1];
     }
 
-    @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
 
+		sb.append("[ ");
         for (int i = 0; i < vrhSteka; i++) {
-            sb.append(elementi[i]);
-            sb.append(" ");
+            sb.append(elementi[i]).append(" ");
         }
-
-        sb.append("| vrh steka je ");
-        sb.append(vrhSteka);
+        sb.append("]");
 
         return sb.toString();
     }

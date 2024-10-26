@@ -2,10 +2,10 @@
 Repozitorijum sadrži materijale sa časova vježbi iz predmeta Objektno-orijentisano programiranje na Matematičkom fakultetu.
 
 ## Materijali
-  - čas01: Uvod u programski jezik Java
+  - čas01: Uvod u programski jezik _Java_
   - čas02: Nizovi, matrice i niske
+  - čas03: _StringBuilder_. Klase i objekti
   <!--
-  - čas03: Klase i objekti
   - čas04: Nasleđivanje
   - čas05: Apstraktne klase, polimorfizam
   - čas06: Interfejsi, Enumi

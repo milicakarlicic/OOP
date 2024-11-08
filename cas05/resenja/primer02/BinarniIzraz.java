@@ -5,6 +5,8 @@ public abstract class BinarniIzraz extends Izraz {
     private Izraz desni;
 
     public BinarniIzraz(Izraz levi, Izraz desni) {
+    	// Pravimo kopiju izraza umesto da prepisujemo reference
+    	// Zasto ne mozemo da koristimo konstruktor kopije?
         this.levi = levi.klon();
         this.desni = desni.klon();
     }

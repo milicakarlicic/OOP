@@ -6,8 +6,8 @@ Repozitorijum sadrži materijale sa časova vježbi iz predmeta Objektno-orijent
   - čas02: Nizovi. Matrice. Niske.
   - čas03: Niske - nastavak. _StringBuilder_. Klase i objekti. Statičke metode.
   - čas04: Statičke promenljive. Nasleđivanje. Konstruktor kopije. _Singleton_.
+  - čas05: Apstraktne klase. Polimorfizam. Operator _instanceof_. Kopiranje objekata apstraktne klase. 
   <!--
-  - čas05: Apstraktne klase, polimorfizam
   - čas06: Interfejsi, Enumi
   - čas07: Izuzeci, kloniranje, datoteke
   - čas08: Generičke klase i metode

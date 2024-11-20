@@ -7,6 +7,7 @@ public class Tacka {
     private static int brojac = 0;
 
     static {
+    	// staticki blok - za kompleksniju inicijalizaciju statickih promenljivih (jedna od primena)
         brojac = 0;
         for (int i = 0; i < 10; i++) {
             brojac = 0;

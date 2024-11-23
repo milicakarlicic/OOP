@@ -5,12 +5,14 @@ public class Tacka {
     private double y;
 
     private static int brojac = 0;
+    
+    private static int n = 6;
+    private static int n_faktorijel;
 
     static {
-    	// staticki blok - za kompleksniju inicijalizaciju statickih promenljivih (jedna od primena)
-        brojac = 0;
-        for (int i = 0; i < 10; i++) {
-            brojac = 0;
+        n_faktorijel = 1;
+        for (int i = 1; i <= n; i++) {
+            n_faktorijel *= i;
         }
     }
 

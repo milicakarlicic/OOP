@@ -12,4 +12,9 @@ public abstract class Zivotinja implements Cloneable {
     }
 
     public abstract void oglasavanje();
+    
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }
 }

@@ -9,8 +9,8 @@ Repozitorijum sadrži materijale sa časova vježbi iz predmeta Objektno-orijent
   - čas05: Apstraktne klase. Polimorfizam. Operator _instanceof_. Apstraktna metoda za kopiranje.
   - čas06: Interfejsi. Enumi.
   - čas07: Izuzeci. Kloniranje. Datoteke.
+  - čas08: Generičke klase, interfejsi i metode.
   <!--
-  - čas08: Generičke klase i metode
   - čas09: Generičke kolekcije
   - čas10: Poređenje objekata 
   - čas11: Tokovi podataka

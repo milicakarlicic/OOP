@@ -35,7 +35,7 @@ public class QueueUsingFixedArray implements Queue {
     @Override
     public int back() {
         underflow();
-        return elements[(end - 1) % capacity];
+        return elements[(capacity + end - 1) % capacity];
     }
 
     @Override

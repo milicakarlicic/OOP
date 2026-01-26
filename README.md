@@ -11,7 +11,6 @@ Repozitorijum sadrži materijale sa časova vježbi iz predmeta Objektno-orijent
   - čas07: Izuzeci. Kloniranje. Datoteke.
   - čas08: Generičke klase, interfejsi i metode.
   - čas09: Generičke kolekcije.
-  - čas10: Poređenje objekata. 
-  - čas11: Tokovi podataka.
-  - čas12: JavaFX.
-  - čas13: Primer roka. 
+  - čas10: Poređenje objekata i tokovi podataka.
+  - čas11: JavaFX.
+  - čas12: Primer roka. 
